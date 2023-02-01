@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.row {
+	margin: 0 15px;
+}
+
+.apppointmentContainer {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.apppointmentContainer > a {
+	text-decoration: none;
+	color: black;
+}
+
+.apptOption {
+	width: 200px;
+	height: 100px;
+	box-sizing: border-box;
+
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: #808080;
+	box-shadow: 5px 5px 10px;
+	border-radius: 15px;
+}
+
+.apptOption:hover {
+	background-color: #bfbfbf;
+}
+
+.collapse-appts {
+	background-color: #595959;
+	width: 100%;
+	height: 75px;
+	border: none;
+	text-align: left;
+	outline: none;
+	border-radius: 15px;
+	
+	margin: 20px 20px 0 0;
+	font-size: 30px;
+}
+
+.myApppointmentsContainer {
+	width: 100%;
+	box-sizing: border-box;
+	
+}
+
+.apptDateDisplay {
+	margin-top: 15px;
+	height: 50px;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 8;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.apptOption > .cancelApptTime {
+	display: none;
+}
+
+.apptOption > .apptTimeUpcoming {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.apptOption:hover > .cancelApptTime {
+	display: flex;
+	text-align: center;
+}
+
+.cancelApptTime > a {
+	text-decoration: none;
+	color: black;
+}
+
+.apptOption:hover > .apptTimeUpcoming {
+	display: none;
+}
+	
+.active {
+	border-radius: 15px 15px 0 0;
+	background-color: #808080;
+}
+	
+.collapse-appts:hover {
+	background-color: #808080;
+}
+	
+.apptDates {
+	display: none;
+	background-color: #d9d9d9;
+	padding: 0 8px 15px 8px;
+	border-radius: 0 0 15px 15px;
+}
+
+.upcomingAppts {
+	background-color: #595959;
+	width: 100%;
+	height: 75px;
+	border: none;
+	text-align: left;
+	outline: none;
+	border-radius: 15px 15px 0 0;
+	padding: 20px;
+	margin: 20px 20px 0 0;
+	font-size: 30px;
+}
+
+.upcomingApptsDiv {
+	background-color: #bfbfbf;
+	padding: 0 8px 15px 8px;
+	border-radius: 0 0 15px 15px;
+}
+
+#call {
+	border: 1px solid;
+	border-color: transparent;
+}
+
+
+
+
+
+
+	

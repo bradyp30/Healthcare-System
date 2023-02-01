@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.main-body {
+	margin-top: 50px;
+}
+td {
+	padding: 5px;
+}
+
+textarea {
+	width: 99%;
+}
+
+table {
+	width: 850px;
+	border-collapse: collapse;
+}
+
+.left {
+	width: 400px;
+}
+
+.middle {
+	width: 20px;
+}
+
+.right {
+	width: 400px;
+	border: 1px solid;
+	border-color: #808080;
+}
+
+.window-style {
+	background-color: #808080;
+}
+
+.table-empty {
+	height: 50px;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+h2, p {
+	margin-left: 20px;
+}
+
+.right > button {
+	float: right;
+}
+
+.remove {
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.apptDetailsList {
+	margin: 10px 0 35px 20px;
+	box-sizing: border-box;
+}
+
+.apptDetailsList > h3, .apptDetailsList > h2 {
+	margin: 0;
+}
+
+.apptDetailsList > p {
+	margin-left: 0;
+}
+
+.underlined-headings {
+	text-decoration: underline;
+}
+
+h1.underlined-headings {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+
+#list-visit-summaries {
+	margin-left: 50px;
+	width: 550px;
+	height: 600px;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+
+#appt-refresh {
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#appt-refresh div > a > button {
+	float: right;
+}
+
+.refreshList-button {
+	height: 100%;
+	margin: 0;
+	
+	margin-left: 135px;
+}
+
+@media (max-width: 93em) {
+	.main-body {
+		flex-direction: column;
+		
+	}
+	
+	#list-visit-summaries, #visit-details {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#list-visit-summaries {
+		margin-bottom: 50px;
+		width: 850px;
+	}
+	
+	.refreshList-button {
+		margin-left: 435px;
+	}
+}

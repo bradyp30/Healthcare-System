@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.main-page {
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#docFindPatientSSN {
+	margin-bottom: 10px;
+	display: flex;
+	flex: wrap;
+}
+
+.header-margin {
+	margin-top: 10px;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.ssnSearch {
+	width: 265px;
+}
+
+table, th, td {
+	font-size: 20px;
+	border: 2px solid;
+	border-collapse: collapse;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+option, select, input {
+	margin: 5px;
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* --------------------------------------------- */
+
+.testName-dropdown {
+	position: relative;
+	width: 200px;
+	margin: 6px;
+	font-size: 25px;
+}
+
+.testName-dropdown select {
+	display: none;
+}
+
+.option-selected {
+	background-color: #f1f1f1;
+}
+
+.option-selected:after {
+	position: absolute;
+	content: "";
+	top: 14px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-color: #000 transparent transparent transparent;
+}
+
+.select-option div, .option-selected {
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+.select-option {
+  position: absolute;
+  background-color: #d9d9d9;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.option-hide, .currently-selected {
+	display: none;
+}
+
+.select-option div:hover {
+	background-color: #bfbfbf;
+}
+
+

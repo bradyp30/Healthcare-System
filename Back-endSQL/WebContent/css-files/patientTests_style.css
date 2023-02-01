@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+td {
+	width: 300px;
+}
+
+.patientTestData {
+	width: 100px;
+}
+
+.testLabelValues {
+	width: 175px;
+}
+
+#bloodPressureDataUpper {
+	width: 65px;
+}
+
+#bloodPressureDataLower {
+	width: 50px;
+}
+
+#currentDate {
+	text-decoration: underline;
+	/* margin-left: 25%; */
+}
+
+h1 {
+	margin-left: 25px;
+}
+
+.row {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}

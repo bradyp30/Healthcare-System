@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.main-body {
+	margin-top: 20px;
+}
+	
+table {
+	width: 100%;
+}
+
+td {
+	padding: 5px;
+}
+
+.patientRegForm {
+	width: 100%;
+	box-sizing: border-box;
+}

@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+html, body {
+	background-color: #999999;
+	margin: 0;
+	height: 100%;
+	
+	overflow-x: hidden;
+}
+
+.main-body {
+	display: flex;
+	justify-content: center;
+}
+
+input, label, textarea, button, table {
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* ----------------------------------------- */
+
+header {
+	background-color: #e68a00;
+}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar-homeName {
+	font-size: 37px;
+}
+
+#navbar-text {
+	padding-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.navbar ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+.navbar li {
+	float: left;
+}
+
+#nav-login, #nav-register {
+	float: right;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+  	text-decoration: none;
+  	width:100px;
+}
+
+.navbar li a:hover, dropdown:hover {
+	background-color: #111;
+}
+
+.dropdown {
+	overflow: hidden;
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	background-color: #4d4d4d;
+}
+
+.dropdownContent a {
+	float: none;
+	display: block;
+	width: 75px;
+}
+
+.patientDropdown a {
+	float: none;
+	display: block;
+	width: 90px;
+}
+
+.doctorDropdown a {
+	float: none;
+	display: block;
+	width: 90px;
+}
+
+#nav-register > div > div a, #patientDrop > div > div > a, #doctorDrop > div > div > a {
+	text-align: left;
+}
+
+.dropdown:hover .dropdownContent {
+	display: block;
+}
+
+/* ----------------------------------------- */
+
+.login-buttons-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	margin: 5px;
+	font-family: auto;
+}
+
+.refreshList-button {
+	margin: 10px;
+}
+
+/* ----------------------------------------- */
+
+.list {
+	padding: 10px;
+}
+
+.list-table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.commPatient-table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1500px;
+}
+
+.table-date, .table-ssn {
+	width: 175px;
+}
+
+.table-viewID {
+	width: 200px;
+}
+
+.table-name, .table-email, .table-address, .table-approval {
+	width: 300px;
+}
+
+.table-concern {
+	width: 250px;
+}
+
+.table-container {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+
+

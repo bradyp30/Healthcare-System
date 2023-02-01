@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.login-container {
+	margin: auto;
+}
+
+.main-body {
+	padding-top: auto;
+	display: flex;
+	height: 80%;
+}
